@@ -35,7 +35,8 @@ you might use this algorithm to generate new train images using existing train i
 conda install pillow
 conda install opencv
 </code>
-<pre>
+</pre>
+
 
 #RGBA2RGB
 -----------------------
