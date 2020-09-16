@@ -1,6 +1,7 @@
 # ImageComposition
-Image Composition Algorithm to make to make train data when there is not enough train images.
-============================================================================================
+
+##Image Composition Algorithm to make to make train data when there is not enough train images.
+
 
 ###This Algorithm is basicly for YOLACT model (Real-Time Instance Segmentation Model)
 [YOCLACT](https://github.com/dbolya/yolact#you-only-look-at-coefficients.)
