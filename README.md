@@ -1,15 +1,15 @@
 # ImageComposition
 
-##Image Composition Algorithm to make to make train data when there is not enough train images.
+## Image Composition Algorithm to make to make train data when there is not enough train images.
 
 
-###This Algorithm is basicly for YOLACT model (Real-Time Instance Segmentation Model)
+#### This Algorithm is basicly for YOLACT model (Real-Time Instance Segmentation Model)
 [YOCLACT](https://github.com/dbolya/yolact#you-only-look-at-coefficients.)
 
 If you don't have enough train data to train,
 you might use this algorithm to generate new train images using existing train images.
 
-###You need Json File which can be generated from 'Labelme'
+#### You need Json File which can be generated from 'Labelme'
 [Labelme](https://github.com/wkentaro/labelme)
 
 <pre>
@@ -27,7 +27,7 @@ you might use this algorithm to generate new train images using existing train i
 </code>
 </pre>
 
-#Environment
+## Environment
 ----------------------
 + Python == 3.6x
 + Set up the environment using one of the following methods: 
@@ -39,7 +39,7 @@ conda install opencv
 </pre>
 
 
-#RGBA2RGB
+## RGBA2RGB
 -----------------------
 Sometimes if you want to use png file, you may need to change RGBA to RGB
 Especially when you making train set for YOLACT.
